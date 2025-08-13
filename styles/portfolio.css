@@ -156,7 +156,7 @@ main section{
 
 .skill{
     padding: 30px;
-    box-shadow: 0px 6px 30px 0px rgb(117, 111, 111);
+    box-shadow: 0px 6px 20px 0px rgb(117, 111, 111);
     border-radius: 10px;
 }
 
@@ -215,10 +215,24 @@ footer input[type="text"],footer input[type="email"],footer textarea{
 /* For mobile */
 
 @media screen and (max-width:576px){
-    .skill-container{
+    .skill-container,
+    .resume-container ,
+    footer,
+    .about-items{
         flex-direction: column;
     }
-    /* footer{
-        flex-direction: column;
+
+    footer,.about{
+        padding: 20px;
+    }
+
+    footer input[type="text"],footer input[type="email"],footer textarea{
+        /* width: calc(100% - 40px); */
+        width: calc(100% - 40px);
+    }
+
+    /* .about{
+        padding: 10px;
     } */
 }
+
