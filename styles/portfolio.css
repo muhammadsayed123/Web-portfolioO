@@ -204,3 +204,21 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     border: none;
     width: 100%;
 }
+
+
+/* media query */
+
+.hide{
+    display: none;
+}
+
+/* For mobile */
+
+@media screen and (max-width:576px){
+    .skill-container{
+        flex-direction: column;
+    }
+    /* footer{
+        flex-direction: column;
+    } */
+}
